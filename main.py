@@ -6,7 +6,7 @@ split_strings = [] # импорт кал
 n = 2 # нет блять numpy
 for index in range(0, len(ZeroXFEELDEAD), n):
         split_strings.append(ZeroXFEELDEAD[index : index + n])
-if random.randint(0, 1) == 1:
+if random.randint(0, 10) == 1:
         random.shuffle(split_strings)
 for x in split_strings:
         blyatsuka___ += ''.join(map(lambda i: chr(int(i, base=16)), x.split()))
